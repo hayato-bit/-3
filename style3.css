@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ここから書く */
+
+.color {
+  width: 400px;
+  margin:0 auto;
+}
+
+.lightblue {
+  background-color: #80bfa8;
+  width: 150px;
+  height: 250px;
+  float: left;
+}
+
+.blue {
+  position: relative;
+  background-color: #141f40;
+  height: 100px;
+}
+
+.allred {
+  position: absolute;
+  list-style-type: none;
+  background-color: white;
+  padding: 10px;
+  top:20px;
+  right: 40px;
+}
+
+.red1 {
+  background-color: #a9004b;
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+.red2 {
+  float: left;
+  background-color: #a9004b;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.red3 {
+  float: left;
+  background-color: #a9004b;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+
+.brown {
+  background-color: #d98d30;
+  width: 400px;
+  height: 100px;
+}
+
+.red {
+  position: relative;
+  background-color: #8c2727;
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.allbrown {
+  position: absolute;
+  list-style: none;
+  top: 40px;
+  left: 60px;
+}
+
+.brown1:first-child {
+  background-color: #ff863f;
+  border:solid 5px white;
+  box-sizing: border-box;
+  width: 140px;
+  height: 50px;
+}
+
+.brown2 {
+  background-color: #ff863f;
+  border:solid 5px white;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 140px;
+  height: 50px;
+}
+
+.brown3 {
+  background-color: #ff863f;
+  border:solid 5px white;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 140px;
+  height: 50px;
+}
